@@ -15,10 +15,10 @@ public class StrikeOrBall {
 
     public static void getResult (int result){
         if (result == 1) {
-            System.out.println("STRIKE");
+            System.out.println("스트라이크");
             strike++;
         } else {
-            System.out.println("BALL");
+            System.out.println("볼");
             ball++;
         }
     }
