@@ -20,8 +20,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:id="@+id/linearLayout2">
 
-        <Button
-            android:id="@+id/button7"
+        <ToggleButton
+            android:id="@+id/button_startstop"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="START / STOP" />
@@ -39,10 +39,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView3"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="VELOCITY" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,22 +58,22 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/linearLayout2">
 
-        <Button
-            android:id="@+id/button8"
+         <Button
+            android:id="@+id/button_strike"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Button" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/button_ball"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Button" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/button_cancel"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -94,7 +95,7 @@
         android:id="@+id/linearLayout3">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
