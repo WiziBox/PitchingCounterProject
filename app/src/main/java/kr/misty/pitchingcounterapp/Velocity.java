@@ -35,7 +35,7 @@ public class Velocity {
             return "직구";
         } else {
             breaking++;
-            return "변화";
+            return "변화구";
         }
     }
 }

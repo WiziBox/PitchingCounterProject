@@ -8,6 +8,7 @@ public class StrikeOrBall {
     public static int result;
     public static int strike;
     public static int ball;
+    public static double ratio;
 
     StrikeOrBall(int result) {
         StrikeOrBall.result = result;
